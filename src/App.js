@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import Rules from './Game/Rules';
 import Game from './Game/GameLogic';
-import landScape from './Bliss_(Windows_XP).png';
 
 const AppWrapper = styled.div`
   padding: 1rem;

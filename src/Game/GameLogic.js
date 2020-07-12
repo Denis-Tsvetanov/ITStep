@@ -81,11 +81,7 @@ class Game extends Component {
           gameWon: true
         });
       }
-      if (attemptCount === this.props.numberOfAttemptsSelected) {
-        this.setState({
-          gameLost: true
-        });
-      }
+ 
       let newAttempt = {
         key: Date.now(),
         content: guessNumber,
