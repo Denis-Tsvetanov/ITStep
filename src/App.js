@@ -10,7 +10,7 @@ const AppWrapper = styled.div`
   text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(${landScape});
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/2/27/Bliss_%28Windows_XP%29.png);
   height: 100vh;
   box-sizing: border-box;
   overflow: scroll;
@@ -63,7 +63,7 @@ class App extends Component {
         <Game 
           numberOfAttemptsSelected = { this.state.numberOfAttemptsSelected } 
         />
-        <AppLink href="https://github.com/rashmiap/bulls-cows-react-game">https://github.com/rashmiap/bulls-cows-react-game</AppLink>
+        <AppLink href="https://github.com/Denis-Tsvetanov/ITStep/tree/master/src">https://github.com/Denis-Tsvetanov/ITStep/bulls-cows-react-game</AppLink>
       </AppWrapper>
     );
   }
